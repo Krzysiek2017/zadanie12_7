@@ -1,0 +1,50 @@
+.board {
+    background-color: SteelBlue;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 10px grey;
+}
+.board h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: #fff;
+}
+.column {
+    width: 30%;
+    text-align: center;
+    color: grey;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid grey;
+}
+.column-card-list {
+    min-height: 500px;
+}
+.card {
+    width: 75%;
+    height: 100%;
+    border: 1 solid grey;
+    box-shadow: 2px 2px 5px grey;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+}
+.column-container li {
+    list-style-type: none;
+}
+button:hover {
+    background-color: lightGrey;
+}
+button {
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+    background-color: grey;
+}
