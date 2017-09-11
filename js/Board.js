@@ -1,6 +1,6 @@
 var board = {
 	name: 'Tablica Kanban',
-	addColumn: function(column) {
+	createColumn: function(column) {
 		this.element.append(column.element);
 		initSortable();
 	},

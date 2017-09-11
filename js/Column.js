@@ -40,14 +40,14 @@ columnAddCard.click(function(event) {
 
 // KONSTRUOWANIE ELEMENTU KOLUMNY
 column.append(columnTitle)
-	.append(columnDelete)
-	.append(columnAddCard)
-	.append(columnCardList);
+    .append(columnDelete)
+    .append(columnAddCard)
+    .append(columnCardList);
 return column;
 }
-
+}
 Column.prototype = {
-	addCard: function(card) {
+	createCard: function(card) {
 		this.element.children('ul').append(card.element);
 	},
 	deleteColumn: function() {
@@ -60,4 +60,8 @@ Column.prototype = {
 			}
 		});
 	}
+
 };
+    
+    //Wcięcia zamknięcia
+    
